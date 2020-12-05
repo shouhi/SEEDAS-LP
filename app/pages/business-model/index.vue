@@ -3,19 +3,19 @@
     <div class="container container--narrow">
       <my-section-title class="title">
         <template v-slot:heading>
-          🌱SEEDASが提供するサービスとは
+          🌱SEEDASのビジネスモデルについて
         </template>
         <template v-slot:body>
           <p class="subtitiles">
-            １，既存の店舗の空き時間と自分で経営をしたい学生を繋ぐマッチングサービス
+            １，学生⇢店舗オーナーへのレント代より10%
           </p>
-          <button @click="toBusinessModel">
-            ビジネスモデルについて
-          </button>
+          <p class="subtitiles">
+            ２，学生の売上より10%
+          </p>
         </template>
       </my-section-title>
-      <figure class="signature">
-        <img src="@/assets/imgs/signature.png" alt="" />
+      <figure class="model">
+        <img src="@/assets/imgs/model.jpg" alt="" width="500px" />
       </figure>
     </div>
   </div>
@@ -71,14 +71,5 @@ export default {
   color: #1d1d1d;
   font-size: 17px;
   font-weight: 500;
-}
-.model {
-  color: #f19710;
-  font-size: 20px;
-  font-weight: 300;
-}
-
-.signature {
-  margin-top: 30px;
 }
 </style>
