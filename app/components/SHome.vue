@@ -1,25 +1,25 @@
 <template>
-  <div class="hero-wrapper">
+  <div class="home-wrapper">
     <div class="container">
-      <div id="hero" class="hero-wrapper-2">
+      <div id="home" class="home-wrapper-2">
         <div class="row">
           <div class="col col--6"></div>
-          <div class="col col--6">
-            <div class="hero">
+          <div class="col col--">
+            <div class="home">
               <my-section-title :level="1" class="title">
                 <template v-slot:heading>
-                  We Design and Develop
+                  [学生と店舗のマッチングサービス]
                 </template>
                 <template v-slot:body>
-                  <p>This is a sample page.</p>
+                  <p class="subtitiles">
+                    ~学生がお店経営を経験できる場を提供する~
+                  </p>
                   <p>
-                    We are a new design studio based in USA. We have over 20
-                    years of combined experience, and know a thing or two about
-                    designing websites and mobile apps.
+                    「芽吹くための経験」というビジョンを持って、学生たちがリアルな経営を経験できることを目指しています
                   </p>
                 </template>
               </my-section-title>
-              <a href="#" class="button contact-us">Contact Us</a>
+              <a href="#" class="button contact-us">Let's Movie</a>
             </div>
           </div>
         </div>
@@ -39,19 +39,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.hero-wrapper {
-  .webp & {
-    background: url('../assets/imgs/banner.jpg?webp') no-repeat left/cover;
-  }
-  .no-webp & {
-    background: url('../assets/imgs/banner.jpg') no-repeat left/cover;
-  }
-  @include sp {
-    background-position-x: 10%;
-  }
+.home-wrapper {
+  background-color: #fafafafa;
 }
-
-.hero {
+.home {
   padding: 54px 0 90px;
   @include tablet {
     padding: 100px 0 120px;
@@ -65,12 +56,15 @@ export default {
   font-size: 38px;
   font-weight: 500;
   letter-spacing: 0.01em;
-  line-height: 40px;
+  line-height: 60px;
   @include tablet {
     padding-top: 60px;
+    margin-left: 60px;
   }
   @include pc {
     padding-top: 92px;
+    margin-left: 10px;
+    margin-right: 0;
   }
 }
 
@@ -88,6 +82,12 @@ export default {
     line-height: 28px;
     padding: 0;
   }
+}
+.subtitiles {
+  color: #1d1d1d;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
 }
 
 .contact-us {

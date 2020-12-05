@@ -1,6 +1,6 @@
 <template>
   <div>
-    <my-hero />
+    <my-home />
     <my-header />
     <my-about />
     <my-skills />
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import myHero from '~/components/SHero'
+import myHome from '~/components/SHome'
 import myHeader from '~/components/SHeader'
 import myAbout from '~/components/SAbout'
 import mySkills from '~/components/SSkills'
@@ -32,7 +32,7 @@ import myFooter from '~/components/SFooter'
 export default {
   components: {
     myHeader,
-    myHero,
+    myHome,
     myAbout,
     mySkills,
     myNumbers,
