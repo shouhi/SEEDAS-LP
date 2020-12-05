@@ -1,5 +1,5 @@
 <template>
-  <div id="works" class="works-wrapper">
+  <div id="owner" class="works-wrapper">
     <div class="container container--full">
       <div class="works">
         <figure v-for="(url, index) in images" :key="index" class="work">

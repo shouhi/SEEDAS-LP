@@ -1,5 +1,5 @@
 <template>
-  <div id="services" class="services">
+  <div id="student" class="services">
     <div class="container">
       <div class="row">
         <div class="col col--3">
