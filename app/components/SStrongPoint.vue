@@ -1,25 +1,16 @@
-<template>
-  <div id="strong">
-    <div class="skills-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col col--6">
-            <my-section-title>
-              <template v-slot:heading>
-                SEEDASの強み
-              </template>
-            </my-section-title>
-            <div class="skills">
-              <my-gauge class="gauge" caption="cost" :value="80" />
-              <my-gauge class="gauge" caption="easy" :value="90" />
-              <my-gauge class="gauge" caption="marketing" :value="65" />
-            </div>
-          </div>
-          <div class="col col--6"></div>
-        </div>
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+  div#strong
+    div.strong-wrapper
+      div.container
+        div.row
+          div(class="col col--6")
+            my-section-title
+              template(v-slot:heading) SEEDASの強み
+            div.strong
+              my-gauge.gauge(caption="cost" :value="80")
+              my-gauge.gauge(caption="easy" :value="90")
+              my-gauge.gauge(caption="marketing" :value="75")
+          div(class="col col--6")
 </template>
 
 <script>
@@ -35,7 +26,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.skills-wrapper {
+.strong-wrapper {
   background: #f9f9f9;
   padding: 50px 0 80px;
   @include tablet {
@@ -55,7 +46,7 @@ export default {
   }
 }
 
-.skills {
+.strong {
   padding: 0 20px;
   @include pc {
     padding: 0 86px 70px 0;

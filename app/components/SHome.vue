@@ -1,31 +1,17 @@
-<template>
-  <div class="home-wrapper">
-    <div class="container">
-      <div id="home" class="home-wrapper-2">
-        <div class="row">
-          <div class="col col--6"></div>
-          <div class="col col--">
-            <div class="home">
-              <my-section-title :level="1" class="title">
-                <template v-slot:heading>
-                  [学生と店舗のマッチングサービス]
-                </template>
-                <template v-slot:body>
-                  <p class="subtitiles">
-                    ~学生がお店経営を経験できる場を提供する~
-                  </p>
-                  <p>
-                    「芽吹くための経験」というビジョンを持って、学生たちがリアルな経営を経験できることを目指しています
-                  </p>
-                </template>
-              </my-section-title>
-              <a href="#" class="button contact-us">Let's Movie</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+  div.home-wrapper
+    div.container
+      div#home.home-wrapper-2
+        div.row
+          div(class="col col--6")
+          div(class="col col--")
+            div.home
+              my-section-title(:level="1" class="title")
+                template(v-slot:heading) [ 学生と店舗のマッチングサービス ]
+                template(v-slot:body)
+                  p.subtitiles ~学生がお店経営を経験できる場を提供する~
+                  p 「芽吹くための経験」というビジョンを持って、学生たちがリアルな経営を経験できることを目指しています
+              a(href="#" class="button contact-us") Let's Movie
 </template>
 
 <script>

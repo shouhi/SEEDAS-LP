@@ -1,55 +1,39 @@
-<template>
-  <header class="header">
-    <div class="header-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col col--1">
-            <div class="logo" @click="isOpen = true">
-              <img src="@/assets/imgs/logo.png" alt="" width="100" />
-            </div>
-          </div>
-          <div class="col col--11 nav-panel" :class="{ open: isOpen }">
-            <nav>
-              <ul class="nav-list">
-                <li
-                  class="close-button"
-                  aria-label="close navigation"
-                  @click="isOpen = false"
-                >
-                  ×
-                </li>
-                <li><a href="#home">ホーム</a></li>
-                <li><a href="#about">サービス詳細</a></li>
-                <li><a href="#strong">SEEDASの強み</a></li>
-                <li><a href="#owner">店舗を貸したいオーナーの皆様へ</a></li>
-                <li><a href="#student">学生のみなさまへ</a></li>
-                <li><a href="#store">現在貸出中店舗</a></li>
-                <li><a href="#vision">将来ビジョン</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+<template lang="pug">
+  header.header
+    div.header-wrapper
+      div.container
+        div.row
+          div(class="col col--1")
+            div.logo
+              img(src="@/assets/imgs/logo.png" alt="" width="100")
+          div(class="col col--11 nav-panel")
+              ul.nav-list
+                li
+                  a(href="#home") ホーム
+                li
+                  a(href="#about") サービス詳細
+                li
+                  a(href="#strong") SEEDASの強み
+                li
+                  a(href="#owner") 店舗を貸したいオーナーの皆様へ
+                li
+                  a(href="#student") 学生のみなさまへ
+                li
+                  a(href="#store") 現在貸出中店舗
+                li
+                  a(href="#vision") 将来ビジョン
 </template>
 
 <script>
 import smoothscroll from 'smoothscroll-polyfill'
 
 export default {
-  data() {
-    return {
-      isOpen: false
-    }
-  },
   mounted() {
     const self = this
     smoothscroll.polyfill()
     self.$el.querySelectorAll('a[href^="#"]').forEach(function(el) {
       el.addEventListener('click', event => {
         event.preventDefault()
-        self.isOpen = false
         const href = el.getAttribute('href')
         const target = document.querySelector(
           href === '#' || href === '' ? 'html' : href
