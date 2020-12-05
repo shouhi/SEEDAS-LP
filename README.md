@@ -1,8 +1,5 @@
-# ランディングページ サンプル
-
-これはポートフォリオ用LPのソースです。
-
-完成形はこちらでご覧ください → https://pinalto.github.io/demo-lp/ 
+# SEEDAS-ピッチ用ランディングページ
+1/9に行われるKwansei Gakuin Pitch Contestで使うためのLPを作成
 
 ## キーワード
 
