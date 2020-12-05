@@ -1,16 +1,10 @@
-<template>
-  <div id="owner" class="works-wrapper">
-    <div class="container container--full">
-      <div class="works">
-        <figure v-for="(url, index) in images" :key="index" class="work">
-          <img :src="url" alt="" />
-        </figure>
-      </div>
-      <button class="more-button" @click="loadMore">
-        Load More Work
-      </button>
-    </div>
-  </div>
+<template lang="pug">
+  div(id="owner" class="works-wrapper")
+    div(class="container container--full")
+      div(class="works")
+        figure(v-for="(url, index) in images" :key="index" class="work")
+          img(:src="url" alt="")
+      button(class="more-button" @click="loadMore") Load More Work
 </template>
 
 <script>
