@@ -1,24 +1,13 @@
-<template>
-  <div id="about" class="about">
-    <div class="container container--narrow">
-      <my-section-title class="title">
-        <template v-slot:heading>
-          🌱SEEDASが提供するサービスとは
-        </template>
-        <template v-slot:body>
-          <p class="subtitiles">
-            １，既存の店舗の空き時間と自分で経営をしたい学生を繋ぐマッチングサービス
-          </p>
-          <button @click="toBusinessModel">
-            ビジネスモデルについて
-          </button>
-        </template>
-      </my-section-title>
-      <figure class="signature">
-        <img src="@/assets/imgs/signature.png" alt="" />
-      </figure>
-    </div>
-  </div>
+<template lang="pug">
+  div#about.about
+    div(class="container container--narrow")
+      my-section-title.title
+        template(v-slot:heading) 🌱SEEDASが提供するサービスとは
+        template(v-slot:body)
+          p.subtitiles １，既存の店舗の空き時間と自分で経営をしたい学生を繋ぐマッチングサービス
+          button(@click="toBusinessModel") ビジネスモデルについて
+      figure.signature
+        img(src="@/assets/imgs/signature.png" alt="")
 </template>
 
 <script>
