@@ -20,6 +20,7 @@
                 </li>
                 <li><a href="#home">ホーム</a></li>
                 <li><a href="#about">サービス詳細</a></li>
+                <li><a href="#strong">SEEDASの強み</a></li>
                 <li><a href="#owner">店舗を貸したいオーナーの皆様へ</a></li>
                 <li><a href="#student">学生のみなさまへ</a></li>
                 <li><a href="#store">現在貸出中店舗</a></li>
