@@ -1,3 +1,4 @@
+// 使うかは別途相談
 <template>
   <div class="numbers-wrapper">
     <div class="container">
