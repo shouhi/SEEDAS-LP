@@ -27,11 +27,6 @@ import MySectionTitle from '@/components/SectionTitle'
 export default {
   components: {
     MySectionTitle
-  },
-  methods: {
-    toBusinessModel() {
-      this.$router.push('/business-model')
-    }
   }
 }
 </script>
