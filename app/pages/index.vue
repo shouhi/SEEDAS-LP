@@ -3,7 +3,7 @@
     <my-home />
     <my-header />
     <my-about />
-    <my-skills />
+    <my-StrongPoint />
     <my-numbers />
     <my-works />
     <my-process />
@@ -19,7 +19,7 @@
 import myHome from '~/components/SHome'
 import myHeader from '~/components/SHeader'
 import myAbout from '~/components/SAbout'
-import mySkills from '~/components/SSkills'
+import myStrongPoint from '~/components/SStrongPoint'
 import myNumbers from '~/components/SNumbers'
 import myWorks from '~/components/SWorks'
 import myProcess from '~/components/SProcess'
@@ -34,7 +34,7 @@ export default {
     myHeader,
     myHome,
     myAbout,
-    mySkills,
+    myStrongPoint,
     myNumbers,
     myWorks,
     myProcess,

@@ -1,20 +1,22 @@
 <template>
-  <div class="skills-wrapper">
-    <div class="container">
-      <div class="row">
-        <div class="col col--6">
-          <my-section-title>
-            <template v-slot:heading>
-              Professional Skills
-            </template>
-          </my-section-title>
-          <div class="skills">
-            <my-gauge class="gauge" caption="UI/UX Design" :value="75" />
-            <my-gauge class="gauge" caption="WEB Development" :value="90" />
-            <my-gauge class="gauge" caption="Marketing" :value="65" />
+  <div id="strong">
+    <div class="skills-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col col--6">
+            <my-section-title>
+              <template v-slot:heading>
+                SEEDASの強み
+              </template>
+            </my-section-title>
+            <div class="skills">
+              <my-gauge class="gauge" caption="cost" :value="80" />
+              <my-gauge class="gauge" caption="easy" :value="90" />
+              <my-gauge class="gauge" caption="marketing" :value="65" />
+            </div>
           </div>
+          <div class="col col--6"></div>
         </div>
-        <div class="col col--6"></div>
       </div>
     </div>
   </div>
