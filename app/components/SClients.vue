@@ -1,35 +1,28 @@
-<template>
-  <div id="store" class="clients">
-    <div class="container">
-      <div class="row">
-        <div class="col col--1-5">
-          <figure class="logo">
-            <img src="@/assets/imgs/client1.png" alt="HANDMADE" />
-          </figure>
-        </div>
-        <div class="col col--1-5">
-          <figure class="logo">
-            <img src="@/assets/imgs/client2.png" alt="Mountain" />
-          </figure>
-        </div>
-        <div class="col col--1-5">
-          <figure class="logo">
-            <img src="@/assets/imgs/client3.png" alt="COLLECTION" />
-          </figure>
-        </div>
-        <div class="col col--1-5">
-          <figure class="logo">
-            <img src="@/assets/imgs/client4.png" alt="MOUNTAINBIKE" />
-          </figure>
-        </div>
-        <div class="col col--1-5">
-          <figure class="logo">
-            <img src="@/assets/imgs/client1.png" alt="HANDMADE" />
-          </figure>
-        </div>
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+  div#store.clients
+    div.container
+      div.row
+        div(class="col col--1-5")
+          figure.logo
+            img(
+              src="@/assets/imgs/client1.jpeg"
+              alt="HANA"
+              width="250px"
+            )
+        div(class="col col--1-5")
+          figure.logo
+            img(
+              src="@/assets/imgs/client2.jpeg"
+              alt="MAGIE"
+              width="120px"
+            )
+        div(class="col col--1-5")
+          figure.logo
+            img(
+              src="@/assets/imgs/client3.jpeg"
+              alt="KAZE"
+              width="120px"
+            )
 </template>
 
 <style lang="scss" scoped>
