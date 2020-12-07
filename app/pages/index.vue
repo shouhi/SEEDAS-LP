@@ -5,11 +5,11 @@
     <my-about />
     <my-StrongPoint />
     <my-numbers />
-    <my-works />
     <my-process />
     <my-services />
     <my-testimonials />
     <my-clients />
+    <my-works />
     <my-contact />
     <my-footer />
   </div>

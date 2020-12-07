@@ -1,16 +1,10 @@
-<template>
-  <div id="owner" class="works-wrapper">
-    <div class="container container--full">
-      <div class="works">
-        <figure v-for="(url, index) in images" :key="index" class="work">
-          <img :src="url" alt="" />
-        </figure>
-      </div>
-      <button class="more-button" @click="loadMore">
-        Load More Work
-      </button>
-    </div>
-  </div>
+<template lang="pug">
+  div.works-wrapper
+    div(class="container container--full")
+      div.works
+        figure(v-for="(url, index) in images" :key="index" class="work")
+          img(:src="require(`~/assets/${url}`)" alt="" width="100")
+      button.more-button(@click="loadMore") Load More Work
 </template>
 
 <script>
@@ -26,9 +20,9 @@ export default {
   methods: {
     loadWorks() {
       const step = 4
-      const url = 'https://picsum.photos/341/300?random='
+      const url = 'imgs/store/storeImage'
       for (let i = 0; i < step; i++) {
-        this.images.push(url + (this.images.length + 1))
+        this.images.push(url + (this.images.length + 1) + '.jpeg')
       }
     },
     loadMore() {
@@ -48,7 +42,7 @@ export default {
 .work {
   position: relative;
   flex: auto;
-  width: 50%;
+  width: 100%;
   @include tablet {
     width: 25%;
   }
