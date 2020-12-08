@@ -20,7 +20,7 @@
             </figure>
             <p class="title">Web Development</p>
             <p class="description">
-              A she'd them bring void moving third she'd kind fill
+              説明文
             </p>
           </div>
         </div>
@@ -31,7 +31,7 @@
             </figure>
             <p class="title">App / Mobile</p>
             <p class="description">
-              Dominion man second spirit he, earth they're creeping
+              説明文
             </p>
           </div>
         </div>
@@ -42,7 +42,7 @@
             </figure>
             <p class="title">Game Design</p>
             <p class="description">
-              Morning his saying moveth it multiply appear life be
+              説明文
             </p>
           </div>
         </div>
@@ -53,7 +53,7 @@
             </figure>
             <p class="title">SEO / Marketing</p>
             <p class="description">
-              Give won't after land fill creeping meat you, may
+              説明文
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@
             </figure>
             <p class="title">Photography</p>
             <p class="description">
-              Creepeth one seas cattle grass give moving saw give
+              説明文
             </p>
           </div>
         </div>
@@ -75,7 +75,7 @@
             </figure>
             <p class="title">Graphic Design</p>
             <p class="description">
-              Open, great whales air rule for, fourth life whales
+              説明文
             </p>
           </div>
         </div>
@@ -86,7 +86,7 @@
             </figure>
             <p class="title">Illustrations</p>
             <p class="description">
-              Whales likeness hath, man kind for them air two won't
+              説明文
             </p>
           </div>
         </div>

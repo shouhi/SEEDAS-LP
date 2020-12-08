@@ -11,7 +11,7 @@
             and see if this could be the start of something beautiful.
           </p>
           <p>
-            This is a sample page. Your message will be sent to a black hole.
+            SEEDAS-LP
           </p>
         </template>
       </my-section-title>

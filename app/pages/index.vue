@@ -5,11 +5,11 @@
     <my-about />
     <my-StrongPoint />
     <my-numbers />
-    <my-process />
+    <to-owners />
     <my-services />
-    <my-testimonials />
     <my-clients />
     <my-works />
+    <my-visions />
     <my-contact />
     <my-footer />
   </div>
@@ -22,10 +22,10 @@ import myAbout from '~/components/SAbout'
 import myStrongPoint from '~/components/SStrongPoint'
 import myNumbers from '~/components/SNumbers'
 import myWorks from '~/components/SWorks'
-import myProcess from '~/components/SProcess'
+import toOwners from '~/components/SToOwners'
 import myServices from '~/components/SServices'
 import myClients from '~/components/SClients'
-import myTestimonials from '~/components/STestimonials'
+import myVisions from '~/components/SVisions'
 import myContact from '~/components/SContact'
 import myFooter from '~/components/SFooter'
 
@@ -37,9 +37,9 @@ export default {
     myStrongPoint,
     myNumbers,
     myWorks,
-    myProcess,
+    toOwners,
     myServices,
-    myTestimonials,
+    myVisions,
     myClients,
     myContact,
     myFooter

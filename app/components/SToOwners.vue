@@ -1,13 +1,12 @@
 <template>
-  <div id="process" class="process">
+  <div id="owner" class="owner">
     <div class="container">
       <my-section-title class="title">
         <template v-slot:heading>
-          Our Work Process
+          オーナーの皆様へ
         </template>
         <template v-slot:body>
-          Was years it seasons was there form he in in them together over that,
-          third sixth gathered female creeping bearing behold years.
+          説明文
         </template>
       </my-section-title>
       <figure class="movie">
@@ -41,7 +40,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.process {
+.owner {
   padding-bottom: 100px;
   text-align: center;
 }

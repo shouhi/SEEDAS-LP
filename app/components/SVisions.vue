@@ -1,12 +1,12 @@
 <template>
-  <div id="testimonials" class="testimonials">
+  <div id="vision" class="testimonials">
     <div class="container">
       <slick ref="slick" class="carousel" :options="slickOptions">
         <div class="testimonial">
           <p class="text">
-            “ Outstanding job and exceeded all expectations. It was a pleasure
-            to work with them on a sizable first project and am looking forward
-            to start the next one asap.”
+            将来ビジョン “ Outstanding job and exceeded all expectations. It was
+            a pleasure to work with them on a sizable first project and am
+            looking forward to start the next one asap.”
           </p>
           <p class="name">Michael Hopkins</p>
         </div>
