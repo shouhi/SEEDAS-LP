@@ -1,27 +1,18 @@
-<template>
-  <div id="owner" class="owner">
-    <div class="container">
-      <my-section-title class="title">
-        <template v-slot:heading>
-          オーナーの皆様へ
-        </template>
-        <template v-slot:body>
-          説明文
-        </template>
-      </my-section-title>
-      <figure class="movie">
-        <video
-          class="video"
+<template lang="pug">
+  div#owner.owner
+    div.container
+      my-section-title.title
+        template(v-slot:heading) オーナーの皆様へ
+        template(v-slot:body) 説明文
+      figure.movie
+        video.video(
           src="images/hd0109.mov"
           preload="metadata"
           loop
           playsinline
           muted
           @loadedmetadata="videoLoaded"
-        />
-      </figure>
-    </div>
-  </div>
+        )
 </template>
 
 <script>
